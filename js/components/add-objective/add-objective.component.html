@@ -1,0 +1,11 @@
+<h1>Objective List</h1>
+    <div>
+        <label for="title"></label>
+        <input type="text" id="title" ng-model="$ctrl.objective_form.title">
+    </div>
+    <div>
+        <label for="details"></label>
+        <input type="text" id="details" ng-model="$ctrl.objective_form.description">
+    </div>
+    <button type="button" ng-click="$ctrl.addItem()">Add Objective</button>
+    <button type="button" ng-click="$ctrl.clearForm()">Clear Form</button>

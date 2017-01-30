@@ -1,0 +1,39 @@
+#logo{
+    height: 15vw;
+    width: 18vw;
+    border-radius: 50%;
+}
+#title{
+
+    font-size: 4vw;
+    color: darkred;
+    text-align: center;
+    position: absolute;
+    top: 3%;
+    left: 35%;
+}
+header{
+    height: 16vw;
+    width: 100vw;
+    background-color: black;
+}
+#todays_objectives{
+    height: 30%;
+}
+#objective_input{
+    height: 2vw;
+    width: 20vw;
+    position: absolute;
+    top: 30vw;
+    left: 40%
+}
+#add_objective{
+    height: 2vw;
+    position: absolute;
+    top: 30vw;
+    left: 61%;
+}
+#objective_title{
+    font-size: 4em;
+    text-align: center;
+}
